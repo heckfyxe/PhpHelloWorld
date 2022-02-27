@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    position: absolute;
+    margin: 8px;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    min-height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
